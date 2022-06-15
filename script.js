@@ -39,7 +39,7 @@ const DomElement = function (selector, height, width, bg, fontSize) {
         ';' +
         'font-size: ' +
         this.fontSize +
-        ';'
+        '; display: inline;'
       body.append(newElemP)
     }
   }
